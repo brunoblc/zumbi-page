@@ -330,7 +330,7 @@ body {
   animation: slideDown 0.5s forwards;
 }
 
-@keyframes slideDown {
+/* @keyframes slideDown {
   from {
     opacity: 0;
     max-height: 0;
@@ -339,4 +339,4 @@ body {
     opacity: 1;
     max-height: 200px;
   }
-}
+} */
