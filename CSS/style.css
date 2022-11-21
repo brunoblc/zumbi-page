@@ -86,7 +86,7 @@ body {
   grid-column: 1 /4;
 }
 
-.history p {
+.historia p {
   grid-column: 2/4;
   font-family: Helvetica, Arial;
   margin-bottom: 0.5rem;
@@ -111,7 +111,7 @@ body {
   background: #fb5;
 }
 
-.infect p {
+.infectado p {
   font-family: helvetica, arial;
   font-size: 1rem;
   line-height: 1.2;
@@ -330,7 +330,7 @@ body {
   animation: slideDown 0.5s forwards;
 }
 
-/* @keyframes slideDown {
+@keyframes slideDown {
   from {
     opacity: 0;
     max-height: 0;
@@ -339,4 +339,4 @@ body {
     opacity: 1;
     max-height: 200px;
   }
-} */
+}
