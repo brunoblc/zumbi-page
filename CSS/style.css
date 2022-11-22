@@ -179,24 +179,6 @@ body {
   font-size: 1rem;
 }
 
-.mapa {
-  grid-column: 2/4;
-  overflow: hidden;
-}
-
-.mapa img {
-  max-width: 105%;
-  -moz-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.mapa:hover img {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
 .dados {
   grid-column: 4/4;
   width: 40rem;
@@ -225,6 +207,11 @@ body {
         word-wrap: break-word;
     }
 
+    
+    .dados{
+      grid-column: 1;
+    }
+    
     body,
     .menu ul {
       grid-template-columns: 1fr;
@@ -243,13 +230,11 @@ body {
     }
 
     .infect-lista {
-      grid-column: 1;
+      grid-column: 3;
     }
 
-    .ref-lista,
-    .dados,
-    .mapa {
-      grid-column: 1 /3;
+    img{
+      width: 300px;
     }
 
     .grid-section h1 {
